@@ -1,4 +1,5 @@
 public class AccountController {
+    //check
  @AuraEnabled
     public static Account getAccount(Id accId) {
         return [
